@@ -5,72 +5,56 @@ date: "2024-10-08"
 tags: ['markdown', 'mdx', 'tutorial']
 ---
 
-<Note emoji=":wave:">Selamat datang! Di sini Anda akan belajar cara menambahkan blog baru menggunakan format MDX.</Note>
+<Note emoji="👋">Selamat datang! Di sini Anda akan belajar cara menambahkan blog baru menggunakan format MDX.</Note>
 
-### Langkah 1: Fork dan Clone Repository
+### Langkah-langkah Menambahkan Blog Baru
 
-1. **Fork Repository**  
-    ```
-    https://github.com/vernsg/blog.git
+Ikuti langkah-langkah berikut ini untuk menambahkan blog baru menggunakan format MDX:
 
-2. **Clone Repository**  
-   Setelah melakukan fork, clone repository yang sudah Anda fork ke komputer Anda:
-   ```bash
-   git clone https://github.com/username/repoyangdifork.git
+```bash
+# Langkah 1: Fork Repository
+# Buka URL berikut untuk melakukan fork repository:
+https://github.com/vernsg/blog.git
 
-### Langkah 2: Menambahkan Blog Baru
+# Setelah melakukan fork, clone repository yang sudah Anda fork ke komputer Anda:
+git clone https://github.com/username/repoyangdifork.git
 
-1. **Buat File MDX Baru**
-    Di dalam folder posts/, buat file baru dengan format blogbaru.mdx.
+# Langkah 2: Menambahkan Blog Baru
+# Buat file MDX baru di dalam folder posts/
+cd posts
+touch blogbaru.mdx
 
-2. **Isi Konten MDX**
-    Gunakan contoh berikut sebagai format untuk file Anda:
-    ```mdx
-    ---
-title: "Judul Blog Anda"
-description: "Deskripsi singkat tentang blog Anda."
-date: "2024-10-08"
+# Isi file blogbaru.mdx dengan konten berikut:
+echo "---
+title: \"Judul Blog Anda\"
+description: \"Deskripsi singkat tentang blog Anda.\"
+date: \"2024-10-08\"
 tags: ['tag1', 'tag2']
 ---
 
-<Note emoji=":wave:">Selamat datang di blog baru Anda!</Note>
+<Note emoji=\"👋\">Selamat datang di blog baru Anda!</Note>
 
 Konten blog Anda dimulai di sini. Anda dapat menggunakan berbagai elemen Markdown dan MDX untuk memperkaya tulisan Anda.
-```
+" > blogbaru.mdx
 
-### Langkah 3: Inisialisasi Git dan Push Perubahan
-
-1. **Inisialisasi Git**
-Setelah Anda selesai membuat perubahan, inisialisasi repository Git:
-```bash
+# Langkah 3: Inisialisasi Git dan Push Perubahan
+# Inisialisasi Git di dalam folder repository Anda:
 git init
-```
 
-2. **Menambahkan Perubahan**
-Tambahkan semua perubahan yang telah Anda buat:
-```bash
+# Tambahkan semua perubahan yang telah Anda buat:
 git add .
-```
 
-3. **Commit Perubahan**
-Buat commit untuk perubahan Anda:
-```bash
+# Buat commit untuk perubahan Anda:
 git commit -m "Menambahkan blog baru"
-```
 
-4. **Set URL Origin**
-Atur URL origin ke repository fork Anda:
-```bash
+# Set URL origin ke repository fork Anda:
 git remote set-url origin https://github.com/username/repoyangdifork.git
-```
 
-5. **Push Perubahan**
-Push perubahan ke repository Anda di GitHub:
-```bash
+# Push perubahan ke repository Anda di GitHub:
 git push origin main
-```
 
-### Langkah 4: Membuat Pull Request
+
+# Langkah 4: Membuat Pull Request
 
 Setelah Anda melakukan push, buka repository Anda di GitHub dan buat pull request (PR) untuk kontribusi Anda. Setelah saya melihatnya, saya akan menerima kontribusi tersebut.
 
