@@ -10,10 +10,10 @@
 ## Running Locally
 
 ```bash
-$ git clone https://github.com/alexcarpenter/nextjs-mdx-blog-theme
-$ cd nextjs-mdx-blog-theme
+$ git clone https://github.com/vernsg/blog.git
+$ cd blog
 $ npm install
-$ npm run dev:watch
+$ npm run dev
 ```
 
 ## Styling
