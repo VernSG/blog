@@ -14,13 +14,13 @@ const Home: NextPage<HomeProps> = ({ posts }) => {
   return (
     <>
       <Page
-        title="Next.js MDX Blog Theme"
+        title="Blog"
         description={
           <>
             <p>
-              View the source code on{" "}
-              <a href="https://github.com/alexcarpenter/nextjs-mdx-blog-theme">
-                Github
+              View the blog{" "}
+              <a href="https://github.com/vernsg/blog.git">
+              Post MDX
               </a>
               .
             </p>
